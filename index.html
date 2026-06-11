@@ -154,9 +154,9 @@
     </section>
 
     <footer class="site-footer">
-      <a href="/privacy.html">プライバシーポリシー</a>
-      <a href="/disclaimer.html">免責事項</a>
-      <a href="/contact.html">お問い合わせ</a>
+      <button type="button" data-policy-target="privacyDetail">プライバシーポリシー</button>
+      <button type="button" data-policy-target="disclaimerDetail">免責事項</button>
+      <button type="button" data-policy-target="contactDetail">お問い合わせ</button>
     </footer>
   </main>
 
@@ -173,11 +173,11 @@
         <p>地図、会員ログイン、QRコード生成などは外部サービスを開く場合があります。外部サイトの利用規約とプライバシーポリシーをご確認ください。</p>
         <p>広告を表示する場合は、広告であることが分かる配置にし、誤タップを誘導しない設計にします。広告配信にはプライバシー表示と同意取得が必要になる場合があります。</p>
         <nav class="notice-links" aria-label="ポリシーリンク">
-          <a href="https://delivery-rate-checker-app.umascu.workers.dev/privacy.html" target="_blank" rel="noopener">プライバシーポリシー</a>
-          <a href="https://delivery-rate-checker-app.umascu.workers.dev/disclaimer.html" target="_blank" rel="noopener">免責事項</a>
-          <a href="https://delivery-rate-checker-app.umascu.workers.dev/contact.html" target="_blank" rel="noopener">お問い合わせ</a>
+          <button type="button" data-policy-target="privacyDetail">プライバシーポリシー</button>
+          <button type="button" data-policy-target="disclaimerDetail">免責事項</button>
+          <button type="button" data-policy-target="contactDetail">お問い合わせ</button>
         </nav>
-        <details class="notice-detail">
+        <details id="privacyDetail" class="notice-detail">
           <summary>プライバシーポリシーをこの画面で表示</summary>
           <div>
             <p>本サービスは、料金検索に入力された発送地、お届け先、サイズ、オプション情報をブラウザ上で処理します。これらの入力内容を運営者のサーバーへ保存することはありません。</p>
@@ -185,7 +185,7 @@
             <p>今後、Google AdSenseなどの広告配信サービスを利用する場合があります。広告配信事業者はCookie等を使用して利用者の興味に応じた広告を表示することがあります。</p>
           </div>
         </details>
-        <details class="notice-detail">
+        <details id="disclaimerDetail" class="notice-detail">
           <summary>免責事項をこの画面で表示</summary>
           <div>
             <p>本サービスで表示する料金は、公開情報をもとにした目安です。実際の送料、割引、追加料金、利用条件は、発送方法、荷物の内容、地域、契約条件、配送会社の改定などにより異なる場合があります。</p>
@@ -193,7 +193,7 @@
             <p>本サービスの利用により生じた損害、トラブル、配送条件の相違などについて、運営者は責任を負いかねます。</p>
           </div>
         </details>
-        <details class="notice-detail">
+        <details id="contactDetail" class="notice-detail">
           <summary>お問い合わせをこの画面で表示</summary>
           <div>
             <p>配送運賃チェッカーに関するお問い合わせ、不具合報告、掲載情報の確認依頼は、以下のメールアドレスまでご連絡ください。</p>

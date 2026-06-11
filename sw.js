@@ -1,4 +1,4 @@
-const CACHE = "delivery-rate-checker-v29";
+const CACHE = "delivery-rate-checker-v30";
 const ASSETS = [
   "./",
   "./index.html",

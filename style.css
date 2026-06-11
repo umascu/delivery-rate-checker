@@ -517,10 +517,14 @@ select {
   font-size: 12px;
 }
 
-.site-footer a {
+.site-footer button {
+  border: 0;
+  background: transparent;
   color: var(--line-dark);
+  font: inherit;
   font-weight: 800;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .legal-page {
@@ -623,7 +627,7 @@ select {
   gap: 8px;
 }
 
-.notice-links a {
+.notice-links button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -632,8 +636,10 @@ select {
   border-radius: 8px;
   background: #fff;
   color: var(--line-dark);
+  font: inherit;
   font-weight: 850;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .notice-detail {

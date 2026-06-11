@@ -169,6 +169,14 @@ function setSettingsOpen(open) {
   document.body.classList.toggle("modal-open", open);
 }
 
+function showPolicyDetail(id) {
+  setSettingsOpen(true);
+  const detail = document.getElementById(id);
+  if (!detail) return;
+  for (const item of document.querySelectorAll(".notice-detail")) item.open = item === detail;
+  requestAnimationFrame(() => detail.scrollIntoView({ block: "nearest" }));
+}
+
 function mapKeyword() {
   if (el.mapKind.value === "convenience") return convenienceQuery(state.carrier);
   if (el.mapKind.value === "pudo") return "PUDOステーション 宅配便ロッカー";
@@ -373,6 +381,12 @@ el.settings.addEventListener("click", () => setSettingsOpen(true));
 el.settingsClose.addEventListener("click", () => setSettingsOpen(false));
 el.settingsModal.addEventListener("click", (event) => {
   if (event.target.closest("[data-close-settings]")) setSettingsOpen(false);
+});
+document.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-policy-target]");
+  if (!button) return;
+  event.preventDefault();
+  showPolicyDetail(button.dataset.policyTarget);
 });
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") setSettingsOpen(false);
