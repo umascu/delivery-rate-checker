@@ -618,6 +618,24 @@ select {
   background: #f7faf8;
 }
 
+.notice-links {
+  display: grid;
+  gap: 8px;
+}
+
+.notice-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--line-dark);
+  font-weight: 850;
+  text-decoration: none;
+}
+
 .hidden { display: none !important; }
 
 @media (max-width: 520px) {
