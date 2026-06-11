@@ -1,9 +1,10 @@
-const CACHE = "delivery-rate-checker-v25";
+const CACHE = "delivery-rate-checker-v26";
 const ASSETS = [
   "./",
   "./index.html",
   "./style.css",
   "./script.js",
+  "./rates-data.js",
   "./rates.json",
   "./privacy.html",
   "./disclaimer.html",
@@ -35,6 +36,9 @@ self.addEventListener("fetch", (event) => {
       const copy = response.clone();
       caches.open(CACHE).then((cache) => cache.put(event.request, copy));
       return response;
-    }).catch(() => caches.match("./index.html")))
+    }).catch(() => {
+      if (event.request.mode === "navigate") return caches.match("./index.html");
+      throw new Error("Network request failed");
+    }))
   );
 });

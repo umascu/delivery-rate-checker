@@ -335,8 +335,7 @@ function savePng() {
 async function init() {
   fillSelect(el.origin, PREFS);
   fillSelect(el.destination, PREFS);
-  const response = await fetch("rates.json", { cache: "force-cache" });
-  state.rates = await response.json();
+  state.rates = window.RATES_DATA || await loadRates();
   readParams();
   syncOriginLock();
   setOptionsOpen(state.optionsOpen);
@@ -344,6 +343,21 @@ async function init() {
   setCarrier(state.carrier);
 
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js", { scope: "/" });
+}
+
+async function loadRates() {
+  const paths = ["/rates.json", "rates.json"];
+  let lastError;
+  for (const path of paths) {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${path}: ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("rates.json を読み込めませんでした。");
 }
 
 for (const tab of el.tabs) tab.addEventListener("click", () => setCarrier(tab.dataset.carrier));
