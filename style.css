@@ -485,6 +485,85 @@ select {
   box-shadow: 0 8px 18px rgba(0,0,0,.12);
 }
 
+.ad-slot {
+  display: grid;
+  gap: 6px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 11px;
+  text-align: center;
+}
+
+.ad-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 72px;
+  border: 1px dashed #bac8c0;
+  border-radius: 8px;
+  background: #f7faf8;
+  color: #6f7b74;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 16px;
+  margin-top: 18px;
+  padding: 14px 8px 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.site-footer a {
+  color: var(--line-dark);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.legal-page {
+  display: grid;
+  gap: 14px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.legal-page .panel {
+  line-height: 1.8;
+}
+
+.legal-page h1,
+.legal-page h2,
+.legal-page p {
+  margin: 0;
+}
+
+.legal-page h1 {
+  font-size: 24px;
+}
+
+.legal-page h2 {
+  margin-top: 16px;
+  font-size: 17px;
+}
+
+.legal-page ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.legal-page li {
+  margin: 4px 0;
+}
+
+.legal-page .back-link {
+  color: var(--line-dark);
+  font-weight: 850;
+  text-decoration: none;
+}
+
 .modal {
   position: fixed;
   inset: 0;
