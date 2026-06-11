@@ -1,11 +1,16 @@
 {
   "name": "配送運賃チェッカー",
   "short_name": "運賃チェッカー",
-  "start_url": "./index.html",
-  "scope": "./",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "lang": "ja",
+  "orientation": "portrait",
   "background_color": "#eef7f0",
   "theme_color": "#06c755",
+  "categories": ["utilities", "business"],
   "icons": [
     {
       "src": "assets/app-icon-192.png",

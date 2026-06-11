@@ -343,7 +343,7 @@ async function init() {
   setMapOpen(state.mapOpen);
   setCarrier(state.carrier);
 
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js", { scope: "/" });
 }
 
 for (const tab of el.tabs) tab.addEventListener("click", () => setCarrier(tab.dataset.carrier));
