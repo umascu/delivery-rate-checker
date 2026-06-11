@@ -1,4 +1,4 @@
-const CACHE = "delivery-rate-checker-v23";
+const CACHE = "delivery-rate-checker-v24";
 const ASSETS = [
   "./",
   "./index.html",
@@ -8,7 +8,9 @@ const ASSETS = [
   "./manifest.webmanifest",
   "./icon.svg",
   "./assets/app-icon-192.png",
-  "./assets/app-icon-512.png"
+  "./assets/app-icon-512.png",
+  "./assets/app-icon-v2-192.png",
+  "./assets/app-icon-v2-512.png"
 ];
 
 self.addEventListener("install", (event) => {
