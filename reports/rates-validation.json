@@ -1,0 +1,507 @@
+{
+  "generated_at": "2026-06-10T02:30:43.877Z",
+  "checked_count": 50,
+  "matched_count": 50,
+  "checks": [
+    {
+      "carrier": "japanpost",
+      "origin": "福島",
+      "destination": "長崎",
+      "size": "60",
+      "expected": 1740,
+      "actual": 1740,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "福島",
+      "destination": "岩手",
+      "size": "100",
+      "expected": 1500,
+      "actual": 1500,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "埼玉",
+      "destination": "福島",
+      "size": "60",
+      "expected": 910,
+      "actual": 910,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "福島",
+      "destination": "栃木",
+      "size": "60",
+      "expected": 940,
+      "actual": 940,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "宮崎",
+      "destination": "岐阜",
+      "size": "120",
+      "expected": 2310,
+      "actual": 2310,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "福井",
+      "destination": "秋田",
+      "size": "160",
+      "expected": 3320,
+      "actual": 3320,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "佐賀",
+      "destination": "和歌山",
+      "size": "100",
+      "expected": 1650,
+      "actual": 1650,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "宮崎",
+      "destination": "広島",
+      "size": "80",
+      "expected": 1200,
+      "actual": 1200,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "静岡",
+      "destination": "兵庫",
+      "size": "80",
+      "expected": 1220,
+      "actual": 1220,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "群馬",
+      "destination": "青森",
+      "size": "120",
+      "expected": 2310,
+      "actual": 2310,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "大阪",
+      "destination": "愛知",
+      "size": "120",
+      "expected": 2040,
+      "actual": 2040,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "鳥取",
+      "destination": "岩手",
+      "size": "100",
+      "expected": 2020,
+      "actual": 2020,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "宮城",
+      "destination": "福井",
+      "size": "80",
+      "expected": 1310,
+      "actual": 1310,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "愛媛",
+      "destination": "群馬",
+      "size": "160",
+      "expected": 2750,
+      "actual": 2750,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "埼玉",
+      "destination": "宮城",
+      "size": "120",
+      "expected": 2040,
+      "actual": 2040,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "石川",
+      "destination": "茨城",
+      "size": "100",
+      "expected": 1520,
+      "actual": 1520,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "青森",
+      "destination": "福岡",
+      "size": "160",
+      "expected": 3330,
+      "actual": 3330,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "北海道",
+      "destination": "福井",
+      "size": "160",
+      "expected": 3170,
+      "actual": 3170,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "山形",
+      "destination": "福井",
+      "size": "60",
+      "expected": 990,
+      "actual": 990,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "高知",
+      "destination": "滋賀",
+      "size": "160",
+      "expected": 2500,
+      "actual": 2500,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "鹿児島",
+      "destination": "長野",
+      "size": "160",
+      "expected": 3010,
+      "actual": 3010,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "石川",
+      "destination": "千葉",
+      "size": "80",
+      "expected": 1200,
+      "actual": 1200,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "広島",
+      "destination": "福岡",
+      "size": "160",
+      "expected": 3020,
+      "actual": 3020,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "岩手",
+      "destination": "宮城",
+      "size": "140",
+      "expected": 2180,
+      "actual": 2180,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "山形",
+      "destination": "福井",
+      "size": "140",
+      "expected": 2300,
+      "actual": 2300,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "愛知",
+      "destination": "沖縄",
+      "size": "60",
+      "expected": 1450,
+      "actual": 1450,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "富山",
+      "destination": "大阪",
+      "size": "120",
+      "expected": 2040,
+      "actual": 2040,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "広島",
+      "destination": "長野",
+      "size": "60",
+      "expected": 1180,
+      "actual": 1180,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "北海道",
+      "destination": "長崎",
+      "size": "120",
+      "expected": 2650,
+      "actual": 2650,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "三重",
+      "destination": "山形",
+      "size": "140",
+      "expected": 2310,
+      "actual": 2310,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "大分",
+      "destination": "石川",
+      "size": "160",
+      "expected": 2700,
+      "actual": 2700,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "広島",
+      "destination": "宮城",
+      "size": "60",
+      "expected": 1410,
+      "actual": 1410,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "茨城",
+      "destination": "富山",
+      "size": "80",
+      "expected": 1200,
+      "actual": 1200,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "千葉",
+      "destination": "埼玉",
+      "size": "160",
+      "expected": 2440,
+      "actual": 2440,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "滋賀",
+      "destination": "栃木",
+      "size": "100",
+      "expected": 1630,
+      "actual": 1630,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "兵庫",
+      "destination": "富山",
+      "size": "120",
+      "expected": 1830,
+      "actual": 1830,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "神奈川",
+      "destination": "奈良",
+      "size": "120",
+      "expected": 1940,
+      "actual": 1940,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "大阪",
+      "destination": "茨城",
+      "size": "160",
+      "expected": 3160,
+      "actual": 3160,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "岩手",
+      "destination": "福井",
+      "size": "140",
+      "expected": 2930,
+      "actual": 2930,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "山口",
+      "destination": "鹿児島",
+      "size": "140",
+      "expected": 2180,
+      "actual": 2180,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "大阪",
+      "destination": "新潟",
+      "size": "80",
+      "expected": 1350,
+      "actual": 1350,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "青森",
+      "destination": "東京",
+      "size": "160",
+      "expected": 2500,
+      "actual": 2500,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "宮崎",
+      "destination": "熊本",
+      "size": "160",
+      "expected": 2500,
+      "actual": 2500,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "宮城",
+      "destination": "高知",
+      "size": "80",
+      "expected": 1710,
+      "actual": 1710,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "山形",
+      "destination": "山口",
+      "size": "80",
+      "expected": 1710,
+      "actual": 1710,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "福井",
+      "destination": "香川",
+      "size": "140",
+      "expected": 2300,
+      "actual": 2300,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "鳥取",
+      "destination": "茨城",
+      "size": "120",
+      "expected": 2310,
+      "actual": 2310,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "yamato",
+      "origin": "秋田",
+      "destination": "沖縄",
+      "size": "60",
+      "expected": 1920,
+      "actual": 1920,
+      "matched": true,
+      "source": "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    },
+    {
+      "carrier": "japanpost",
+      "origin": "佐賀",
+      "destination": "神奈川",
+      "size": "100",
+      "expected": 2020,
+      "actual": 2020,
+      "matched": true,
+      "source": "https://www.post.japanpost.jp/service/domestic/charge/list/yu-pack/"
+    },
+    {
+      "carrier": "sagawa",
+      "origin": "福島",
+      "destination": "大阪",
+      "size": "140",
+      "expected": 2440,
+      "actual": 2440,
+      "matched": true,
+      "source": "https://www.sagawa-exp.co.jp/fare/"
+    }
+  ]
+}

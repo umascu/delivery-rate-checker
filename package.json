@@ -1,0 +1,12 @@
+{
+  "name": "delivery-rate-checker-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/local-server.mjs",
+    "update:rates": "node scripts/update-rates.mjs",
+    "validate:rates": "node scripts/validate-rates.mjs",
+    "dev": "npx serve ."
+  }
+}
