@@ -1,4 +1,4 @@
-const CACHE = "delivery-rate-checker-v27";
+const CACHE = "delivery-rate-checker-v28";
 const ASSETS = [
   "./",
   "./index.html",
@@ -9,6 +9,9 @@ const ASSETS = [
   "./privacy.html",
   "./disclaimer.html",
   "./contact.html",
+  "/privacy.html",
+  "/disclaimer.html",
+  "/contact.html",
   "./manifest.webmanifest",
   "./icon.svg",
   "./assets/app-icon-192.png",
